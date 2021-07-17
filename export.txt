@@ -1,0 +1,52 @@
+
+-- MariaDB dump 10.18  Distrib 10.5.8-MariaDB, for Android (armv7-a)
+--
+-- Host: localhost    Database: tombol_suka
+-- ------------------------------------------------------
+-- Server version	10.5.8-MariaDB
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `suka`
+--
+
+DROP TABLE IF EXISTS `suka`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `suka` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `suka` varchar(200) NOT NULL,
+  `postTitle` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=216 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `suka`
+--
+
+LOCK TABLES `suka` WRITE;
+/*!40000 ALTER TABLE `suka` DISABLE KEYS */;
+INSERT INTO `suka` VALUES (1,'1','hayang modol'),(2,'1','hayang modol'),(3,'1','hayang modol'),(4,'1','hayang modol'),(5,'1','hayang modol'),(6,'1','hayang modol'),(7,'1','hayang modol'),(8,'1','hayang modol'),(9,'1','hayang modol'),(10,'1','hayang modol'),(11,'1','hayang modol'),(12,'1','hayang modol'),(13,'1','hayang modol'),(14,'1','hayang modol'),(15,'1','hayang modol'),(16,'1','hayang modol'),(17,'1','hayang modol'),(18,'1','hayang modol'),(19,'1','hayang modol'),(20,'1','hayang modol'),(21,'1','hayang modol'),(22,'1','hayang modol'),(23,'1','hayang modol'),(24,'1','hayang modol'),(25,'1','hayang modol'),(26,'1','hayang modol'),(27,'1','hayang modol'),(28,'1','hayang modol'),(29,'1','hayang modol'),(30,'1','hayang modol'),(31,'1','hayang modol'),(32,'1','hayang modol'),(33,'1','hayang modol'),(34,'1','hayang modol'),(35,'1','hayang modol'),(36,'1','hayang modol'),(37,'1','hayang modol'),(38,'1','hayang modol'),(39,'1','hayang modol'),(40,'1','hayang modol'),(41,'1','hayang modol'),(42,'1','hayang modol'),(43,'1','hayang modol'),(44,'1','hayang modol'),(45,'1','hayang modol'),(46,'1','hayang modol'),(47,'1','hayang modol'),(48,'1','hayang modol'),(49,'1','hayang modol'),(50,'1','hayang modol'),(51,'1','hayang modol'),(52,'1','hayang modol'),(53,'1','hayang modol'),(54,'1','hayang modol'),(55,'1','hayang modol'),(56,'1','hayang modol'),(57,'1','hayang modol'),(58,'1','hayang modol'),(59,'1','hayang modol'),(60,'1','hayang modol'),(61,'1','hayang modol'),(62,'1','hayang modol'),(63,'1','hayang modol'),(64,'1','hayang modol'),(65,'1','hayang modol'),(66,'1','hayang modol'),(67,'1','hayang modol'),(68,'1','hayang modol'),(69,'1','hayang modol'),(70,'1','hayang modol'),(71,'1','hayang modol'),(72,'1','hayang modol'),(73,'1','hayang modol'),(74,'1','hayang modol'),(75,'1','hayang modol'),(76,'1','hayang modol'),(77,'1','hayang modol'),(78,'1','hayang modol'),(79,'1','hayang modol'),(80,'1','hayang modol'),(81,'1','hayang modol'),(82,'1','hayang modol'),(83,'1','hayang modol'),(84,'1','hayang modol'),(85,'1','hayang modol'),(86,'1','hayang modol'),(87,'1','hayang modol'),(88,'1','hayang modol'),(89,'1','hayang modol'),(90,'1','hayang modol'),(91,'1','hayang modol'),(92,'1','hayang modol'),(93,'1','hayang modol'),(94,'1','hayang modol'),(95,'1','hayang modol'),(96,'1','hayang modol'),(97,'1','hayang modol'),(98,'1','hayang modol'),(99,'1','hayang modol'),(100,'1','hayang modol'),(101,'1','hayang modol'),(102,'1','hayang modol'),(103,'1','hayang modol'),(104,'1','hayang modol'),(105,'1','hayang modol'),(106,'1','hayang modol'),(107,'1','hayang modol'),(108,'1','hayang modol'),(109,'1','hayang modol'),(110,'1','hayang modol'),(111,'1','hayang modol'),(112,'1','hayang modol'),(113,'1','hayang modol'),(114,'1','hayang modol'),(115,'1','hayang modol'),(116,'1','hayang modol'),(117,'1','hayang modol'),(118,'1','hayang modol'),(119,'1','hayang modol'),(120,'1','hayang modol'),(121,'1','hayang modol'),(122,'1','hayang modol'),(123,'1','hayang modol'),(124,'1','hayang modol'),(125,'1','hayang modol'),(126,'1','hayang modol'),(127,'1','hayang modol'),(128,'1','hayang modol'),(129,'1','hayang modol'),(130,'1','hayang modol'),(131,'1','hayang modol'),(132,'1','hayang modol'),(133,'1','hayang modol'),(134,'1','hayang modol'),(135,'1','hayang modol'),(136,'1','hayang modol'),(137,'1','hayang modol'),(138,'1','hayang modol'),(139,'1','hayang modol'),(140,'1','hayang modol'),(141,'1','hayang modol'),(142,'1','hayang modol'),(143,'1','hayang modol'),(144,'1','hayang modol'),(145,'1','hayang modol'),(146,'1','hayang modol'),(147,'1','hayang modol'),(148,'1','hayang modol'),(149,'1','hayang modol'),(150,'1','hayang modol'),(151,'1','hayang modol'),(152,'1','hayang modol'),(153,'1','hayang modol'),(154,'1','hayang modol'),(155,'1','hayang modol'),(156,'1','hayang modol'),(157,'1','hayang modol'),(158,'1','hayang modol'),(159,'1','hayang modol'),(160,'1','hayang modol'),(161,'1','hayang modol'),(162,'1','hayang modol'),(163,'1','hayang modol'),(164,'1','hayang modol'),(165,'1','hayang modol'),(166,'1','hayang modol'),(167,'1','hayang modol'),(168,'1','hayang modol'),(169,'1','hayang modol'),(170,'1','hayang modol'),(171,'1','hayang modol'),(172,'1','hayang modol'),(173,'1','hayang modol'),(174,'1','hayang modol'),(175,'1','hayang modol'),(176,'1','hayang modol'),(177,'1','hayang modol'),(178,'1','hayang modol'),(179,'1','hayang modol'),(180,'1','hayang modol'),(181,'1','hayang modol'),(182,'1','hayang modol'),(183,'1','hayang modol'),(184,'1','hayang modol'),(185,'1','hayang modol'),(186,'1','hayang modol'),(187,'1','hayang modol'),(188,'1','hayang modol'),(189,'1','hayang modol'),(190,'1','hayang modol'),(191,'1','hayang modol'),(192,'1','hayang modol'),(193,'1','hayang modol'),(194,'1','hayang modol'),(195,'1','hayang modol'),(196,'1','hayang modol'),(197,'1','hayang modol'),(198,'1','hayang modol'),(199,'1','hayang modol'),(200,'1','hayang modol'),(201,'1','hayang modol'),(202,'1','hayang modol'),(203,'1','hayang modol'),(204,'1','hayang modol'),(205,'1','hayang modol'),(206,'1','hayang modol'),(207,'1','hayang modol'),(208,'1','hayang modol'),(209,'1','hayang modol'),(210,'1','hayang modol'),(211,'1','hayang modol'),(212,'1','hayang modol'),(213,'1','hayang modol'),(214,'1','hayang modol'),(215,'1','hayang modol');
+/*!40000 ALTER TABLE `suka` ENABLE KEYS */;
+UNLOCK TABLES;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2021-07-17 14:03:17
